@@ -166,7 +166,7 @@ module.exports = {
           routeBasePath: 'blog',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/wjq990112/Blog/edit/master/blog/',
+          editUrl: 'https://github.com/wjq990112/Blog/edit/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
