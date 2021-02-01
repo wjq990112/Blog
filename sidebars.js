@@ -9,7 +9,11 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    HTML: ['html/html1'],
+    CSS: ['css/css1'],
+    JavaScript: ['javascript/javascript1'],
+    框架: ['framework/framework1'],
+    'Node.js': ['node/node1'],
+    工程化: ['engineering/engineering1'],
   },
 };

@@ -8,68 +8,112 @@
  */
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '炽翎同学的博客',
+  tagline: '长期有耐心，一起做有意义的事',
+  url: 'https://blog.jack-wjq.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'csuft-guanju-studio', // Usually your GitHub org/user name.
+  projectName: 'blog', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: '炽翎同学',
+      hideOnScroll: true,
       logo: {
-        alt: 'My Facebook Project Logo',
+        alt: '🦖',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'blog/html/',
+          label: 'HTML',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'blog/css/',
+          label: 'CSS',
+          position: 'left',
+        },
+        {
+          to: 'blog/javascript/',
+          label: 'JavaScript',
+          position: 'left',
+        },
+        {
+          to: 'blog/framework/',
+          label: '框架',
+          position: 'left',
+        },
+        {
+          to: 'blog/node/',
+          label: 'Node.js',
+          position: 'left',
+        },
+        {
+          to: 'blog/engineering/',
+          label: '工程化',
+          position: 'left',
+        },
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'More',
           position: 'right',
+          items: [
+            {
+              href: 'https://github.com/wjq990112/Blog',
+              label: 'GitHub',
+              position: 'right',
+            },
+            {
+              href: 'https://juejin.cn/user/3122268753634541',
+              label: '掘金',
+              position: 'right',
+            },
+            {
+              href: 'http://cdn.jack-wjq.cn/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg',
+              label: '公众号',
+              position: 'right',
+            },
+            {
+              href: 'https://www.zhihu.com/people/mr_chiling',
+              label: '知乎',
+              position: 'right',
+            },
+          ],
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
           title: 'Learn',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'HTML',
+              to: 'blog/html/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'CSS',
+              to: 'blog/css/',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'JavaScript',
+              to: 'blog/javascript/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: '框架',
+              to: 'blog/framework/',
+            },
+            {
+              label: 'Node.js',
+              to: 'blog/node/',
+            },
+            {
+              label: '工程化',
+              to: 'blog/engineering/',
             },
           ],
         },
@@ -77,12 +121,20 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'GitHub',
+              href: 'https://github.com/wjq990112/Blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: '掘金',
+              href: 'https://juejin.cn/user/3122268753634541',
+            },
+            {
+              label: '公众号',
+              href: 'http://cdn.jack-wjq.cn/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg',
+            },
+            {
+              label: '知乎',
+              href: 'https://www.zhihu.com/people/mr_chiling',
             },
           ],
         },
@@ -101,13 +153,8 @@ module.exports = {
           ],
         },
       ],
-      logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
-      },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} 炽翎同学. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -115,21 +162,20 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'blog',
+          routeBasePath: 'blog',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/wjq990112/Blog/edit/master/blog/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
   ],
+  plugins: ['@docusaurus/plugin-ideal-image'],
 };
