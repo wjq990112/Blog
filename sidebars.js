@@ -14,6 +14,10 @@ module.exports = {
     JavaScript: ['javascript/javascript1'],
     框架: ['framework/framework1'],
     'Node.js': ['node/node1'],
-    工程化: ['engineering/webpack1', 'engineering/webpack2'],
+    工程化: [
+      'engineering/webpack1',
+      'engineering/webpack2',
+      'engineering/webpack3',
+    ],
   },
 };
