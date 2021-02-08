@@ -19,6 +19,7 @@ module.exports = {
       'engineering/webpack2',
       'engineering/webpack3',
       'engineering/webpack4',
+      'engineering/webpack5',
     ],
   },
 };
