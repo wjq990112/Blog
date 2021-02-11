@@ -58,6 +58,11 @@ module.exports = {
         },
         // Please keep GitHub link to the right for consistency.
         {
+          to: 'diary',
+          label: '随想录',
+          position: 'right',
+        },
+        {
           label: 'More',
           position: 'right',
           items: [
@@ -170,7 +175,15 @@ module.exports = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
-        blog: false,
+        blog: {
+          path: 'diary',
+          routeBasePath: 'diary',
+          editUrl: 'https://github.com/wjq990112/Blog/edit/master/',
+          blogTitle: '炽翎同学的随想录',
+          blogDescription: '就在这记录自己的所知所想吧~',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: '炽翎同学的随想录',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
