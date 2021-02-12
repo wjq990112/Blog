@@ -161,9 +161,6 @@ module.exports = {
       // Please do not remove the credits, help to publicize Docusaurus :)
       copyright: `Copyright © ${new Date().getFullYear()} 炽翎同学. Built with Docusaurus.`,
     },
-    googleAnalytics: {
-      trackingID: 'G-WREZC0J3GF',
-    },
   },
   presets: [
     [
@@ -189,6 +186,9 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        googleAnalytics: {
+          trackingID: 'G-WREZC0J3GF',
         },
       },
     ],
