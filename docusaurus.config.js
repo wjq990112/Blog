@@ -19,10 +19,10 @@ module.exports = {
   projectName: 'blog', // Usually your repo name.
   themeConfig: {
     googleAnalytics: {
-      trackingID: 'G-HYMCPKSYH1',
+      trackingID: 'G-XVLYK68VT6',
     },
     gtag: {
-      trackingID: 'G-HYMCPKSYH1',
+      trackingID: 'G-XVLYK68VT6',
     },
     navbar: {
       title: '炽翎同学',
