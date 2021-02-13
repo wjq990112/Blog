@@ -18,6 +18,9 @@ module.exports = {
   organizationName: 'csuft-guanju-studio', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
   themeConfig: {
+    googleAnalytics: {
+      trackingID: 'UA-189636319-1',
+    },
     navbar: {
       title: '炽翎同学',
       hideOnScroll: true,
@@ -186,9 +189,6 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        googleAnalytics: {
-          trackingID: 'UA-189636319-1',
         },
       },
     ],
