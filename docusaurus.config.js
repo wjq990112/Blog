@@ -21,6 +21,9 @@ module.exports = {
     googleAnalytics: {
       trackingID: 'UA-189636319-1',
     },
+    gtag: {
+      trackingID: 'UA-189636319-1',
+    },
     navbar: {
       title: '炽翎同学',
       hideOnScroll: true,
