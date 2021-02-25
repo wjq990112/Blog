@@ -12,7 +12,7 @@ module.exports = {
     HTML: ['html/html1'],
     CSS: ['css/css1'],
     JavaScript: ['javascript/javascript1'],
-    框架: ['framework/framework1'],
+    框架: ['framework/vue1'],
     'Node.js': ['node/node1'],
     工程化: [
       'engineering/webpack1',
