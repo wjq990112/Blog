@@ -19,7 +19,7 @@ title: 从零开始开发一个babel插件
 >
 > 然后在项目的入口文件里引入并实例化：
 >
-> ```js
+> ```js title="index.tsx"
 > import VConsole from 'vconsole';
 >
 > new VConsole();
