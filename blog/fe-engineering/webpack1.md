@@ -1,7 +1,7 @@
 ---
 id: webpack1
 title: Webpack 初探（一）
-slug: /engineering/
+slug: /fe-engineering/
 ---
 
 ## 创建 Demo（使用 lerna）
