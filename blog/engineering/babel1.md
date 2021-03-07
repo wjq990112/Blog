@@ -1,6 +1,6 @@
 ---
 id: babel1
-title: 从零开始开发一个babel插件
+title: 从零开始开发一个 babel 插件
 ---
 
 ## 前言
