@@ -20,6 +20,7 @@ module.exports = {
       'engineering/webpack3',
       'engineering/webpack4',
       'engineering/webpack5',
+      'engineering/babel1',
     ],
   },
 };
