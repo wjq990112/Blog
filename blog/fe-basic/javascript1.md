@@ -1,5 +1,4 @@
 ---
 id: javascript1
 title: JavaScript Test
-slug: /javascript/
 ---

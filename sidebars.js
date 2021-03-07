@@ -9,18 +9,16 @@
 
 module.exports = {
   someSidebar: {
-    HTML: ['html/html1'],
-    CSS: ['css/css1'],
-    JavaScript: ['javascript/javascript1'],
-    框架: ['framework/vue1'],
-    'Node.js': ['node/node1'],
-    工程化: [
-      'engineering/webpack1',
-      'engineering/webpack2',
-      'engineering/webpack3',
-      'engineering/webpack4',
-      'engineering/webpack5',
-      'engineering/babel1',
+    计算机基础: ['basic/compiler1'],
+    前端基础: ['fe-basic/html1', 'fe-basic/css1', 'fe-basic/javascript1'],
+    前端框架: ['fe-framework/vue1'],
+    前端工程化: [
+      'fe-engineering/webpack1',
+      'fe-engineering/webpack2',
+      'fe-engineering/webpack3',
+      'fe-engineering/webpack4',
+      'fe-engineering/webpack5',
+      'fe-engineering/babel1',
     ],
   },
 };

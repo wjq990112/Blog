@@ -33,33 +33,23 @@ module.exports = {
       },
       items: [
         {
-          to: 'blog/html/',
-          label: 'HTML',
+          to: 'blog/basic/',
+          label: '计算机基础',
           position: 'left',
         },
         {
-          to: 'blog/css/',
-          label: 'CSS',
+          to: 'blog/fe-basic/',
+          label: '前端基础',
           position: 'left',
         },
         {
-          to: 'blog/javascript/',
-          label: 'JavaScript',
+          to: 'blog/fe-framework/',
+          label: '前端框架',
           position: 'left',
         },
         {
-          to: 'blog/framework/',
-          label: '框架',
-          position: 'left',
-        },
-        {
-          to: 'blog/node/',
-          label: 'Node.js',
-          position: 'left',
-        },
-        {
-          to: 'blog/engineering/',
-          label: '工程化',
+          to: 'blog/fe-engineering/',
+          label: '前端工程化',
           position: 'left',
         },
         // Please keep GitHub link to the right for consistency.
@@ -103,28 +93,20 @@ module.exports = {
           title: 'Learn',
           items: [
             {
-              label: 'HTML',
-              to: 'blog/html/',
+              label: '计算机基础',
+              to: 'blog/basic/',
             },
             {
-              label: 'CSS',
-              to: 'blog/css/',
+              label: '前端基础',
+              to: 'blog/fe-basic/',
             },
             {
-              label: 'JavaScript',
-              to: 'blog/javascript/',
+              label: '前端框架',
+              to: 'blog/fe-framework/',
             },
             {
-              label: '框架',
-              to: 'blog/framework/',
-            },
-            {
-              label: 'Node.js',
-              to: 'blog/node/',
-            },
-            {
-              label: '工程化',
-              to: 'blog/engineering/',
+              label: '前端工程化',
+              to: 'blog/fe-engineering/',
             },
           ],
         },
