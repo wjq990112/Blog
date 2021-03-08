@@ -30,7 +30,7 @@ const Home: FC = () => {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('blog/fe-basic/')}>
+              to={useBaseUrl('blog/basic/')}>
               Get Started
             </Link>
           </div>
