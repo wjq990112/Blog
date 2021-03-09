@@ -1,5 +1,5 @@
 ---
 id: html1
 title: HTML Test
-slug: /fe-basic/
+slug: /fe-basis/
 ---

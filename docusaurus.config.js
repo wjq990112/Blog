@@ -33,12 +33,12 @@ module.exports = {
       },
       items: [
         {
-          to: 'blog/basic/',
+          to: 'blog/basis/',
           label: '计算机基础',
           position: 'left',
         },
         {
-          to: 'blog/fe-basic/',
+          to: 'blog/fe-basis/',
           label: '前端基础',
           position: 'left',
         },
@@ -50,6 +50,11 @@ module.exports = {
         {
           to: 'blog/fe-engineering/',
           label: '前端工程化',
+          position: 'left',
+        },
+        {
+          to: 'blog/translation/',
+          label: '好文翻译',
           position: 'left',
         },
         // Please keep GitHub link to the right for consistency.
@@ -94,11 +99,11 @@ module.exports = {
           items: [
             {
               label: '计算机基础',
-              to: 'blog/basic/',
+              to: 'blog/basis/',
             },
             {
               label: '前端基础',
-              to: 'blog/fe-basic/',
+              to: 'blog/fe-basis/',
             },
             {
               label: '前端框架',
@@ -107,6 +112,19 @@ module.exports = {
             {
               label: '前端工程化',
               to: 'blog/fe-engineering/',
+            },
+            {
+              label: '好文翻译',
+              to: 'blog/translation',
+            },
+          ],
+        },
+        {
+          title: 'Others',
+          items: [
+            {
+              label: '随想录',
+              to: 'diary',
             },
           ],
         },

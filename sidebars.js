@@ -9,8 +9,8 @@
 
 module.exports = {
   someSidebar: {
-    计算机基础: ['basic/compiler1'],
-    前端基础: ['fe-basic/html1', 'fe-basic/css1', 'fe-basic/javascript1'],
+    计算机基础: ['basis/compiler1'],
+    前端基础: ['fe-basis/html1', 'fe-basis/css1', 'fe-basis/javascript1'],
     前端框架: ['fe-framework/vue1'],
     前端工程化: [
       'fe-engineering/webpack1',
@@ -20,5 +20,6 @@ module.exports = {
       'fe-engineering/webpack5',
       'fe-engineering/babel1',
     ],
+    好文翻译: ['translation/web-components-are-easier-than-you-think'],
   },
 };
