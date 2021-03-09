@@ -318,3 +318,7 @@ zombie-profile li:last-child::before {
 虽然还有一些问题和其他的细微差别，但我希望你现在比几分钟前更加了解 Web Components 并能够更加熟练地上手。就像我们在这里一样，先试一下。也许你可以在你的工作中到处添加自定义组件，找到 Web Components 的感觉和意义。
 
 现在你更恐惧什么？是 Web Components 还是僵尸末日？在几分钟之前我可能会说我更恐惧 Web Components，但是现在我可以骄傲地说，僵尸末日是我担心的唯一一件事情。
+
+> 其他值得参考学习的教程：[阮一峰：Web Components 入门实例教程](http://www.ruanyifeng.com/blog/2019/08/web_components.html)
+>
+> —— 译者注
