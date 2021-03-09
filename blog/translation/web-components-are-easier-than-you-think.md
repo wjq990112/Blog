@@ -319,6 +319,6 @@ zombie-profile li:last-child::before {
 
 现在你更恐惧什么？是 Web Components 还是僵尸末日？在几分钟之前我可能会说我更恐惧 Web Components，但是现在我可以骄傲地说，僵尸末日是我担心的唯一一件事情。
 
-> 其他值得参考学习的教程：[阮一峰：Web Components 入门实例教程](http://www.ruanyifeng.com/blog/2019/08/web_components.html)
+> 其他值得学习参考的教程：[阮一峰：Web Components 入门实例教程](http://www.ruanyifeng.com/blog/2019/08/web_components.html)
 >
 > —— 译者注
