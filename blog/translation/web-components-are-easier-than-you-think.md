@@ -124,7 +124,7 @@ const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(
 
 在这里创建了一个 Shadow DOM，并向其添加了一个节点，这个节点是前面 HTML 模板的深拷贝，包括模板的所有标签和文本内容。将模板添加到自定义标签的 Shadow DOM 上后，`<slot>` 的位置会被 `name` 属性匹配的内容接管。
 
-现在来看看效果，这里防止了两个相同的组件实例，只需要修改一个标签就能呈现不同的内容。
+现在来看看效果，这里放置了两个相同的组件实例，只需要修改一个标签就能呈现不同的内容。
 
 <iframe height="265" style={{ width: '100%' }} scrolling="no" title="The ______ Are Coming!" src="https://codepen.io/undeadinstitute/embed/qBavGXX?height=265&theme-id=dark&default-tab=html,result" frameBorder="no" loading="lazy" allowtransparency="true" allowFullScreen={true}>
   See the Pen <a href='https://codepen.io/undeadinstitute/pen/qBavGXX'>The ______ Are Coming!</a> by Undead Institute
