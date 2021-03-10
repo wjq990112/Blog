@@ -120,7 +120,7 @@ const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(
 );
 ```
 
-这一行代码做了很多事情：首先要使用自定义标签并创建一个 Shadow DOM，`{ mode: 'open' }` 意味着 `:root` 外部的 JavaScript 代码可以访问和操作这个 Shadow DOM，可以理解为设置 Web Component 的后面。
+这一行代码做了很多事情：首先要使用自定义标签并创建一个 Shadow DOM，`{ mode: 'open' }` 意味着 `:root` 外部的 JavaScript 代码可以访问和操作这个 Shadow DOM，可以理解为设置 Web Component 的后门。
 
 在这里创建了一个 Shadow DOM，并向其添加了一个节点，这个节点是前面 HTML 模板的深拷贝，包括模板的所有标签和文本内容。将模板添加到自定义标签的 Shadow DOM 上后，`<slot>` 的位置会被 `name` 属性匹配的内容接管。
 
