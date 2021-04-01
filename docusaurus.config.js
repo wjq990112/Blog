@@ -17,6 +17,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'csuft-guanju-studio', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-189636319-1',
