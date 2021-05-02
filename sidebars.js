@@ -11,7 +11,11 @@ module.exports = {
   someSidebar: {
     计算机基础: ['basis/compiler1'],
     前端基础: ['fe-basis/html1', 'fe-basis/css1', 'fe-basis/javascript1'],
-    前端框架: ['fe-framework/vue1', 'fe-framework/xstate1'],
+    前端框架: [
+      'fe-framework/vue1',
+      'fe-framework/xstate1',
+      'fe-framework/lodash1',
+    ],
     前端工程化: [
       'fe-engineering/webpack1',
       'fe-engineering/webpack2',
