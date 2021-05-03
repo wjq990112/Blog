@@ -165,7 +165,7 @@ for (const key in value) {
 inherited || hasOwnProperty.call(value, key);
 ```
 
-`inherited` 为 `true` 时允许遍历原型上的属性,否则只允许遍历自身属性.
+`inherited` 为 `true` 时允许遍历原型上的属性，否则只允许遍历自身属性。
 
 ```js
 !(skipIndexes && (key === 'length' || isIndex(key, length)));
