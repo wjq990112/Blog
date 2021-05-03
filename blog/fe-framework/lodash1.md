@@ -128,7 +128,7 @@ function arrayIncludes(array, value) {
 export default arrayIncludes;
 ```
 
-这个函数引入了 `baseIndexOf` 函数，所以这个函数的实现也需要了解一下。
+`arrayIncludes` 函数引入了 `baseIndexOf` 函数，所以这个函数的实现也需要了解一下。
 
 ```js title=".internal/baseIndexOf.js"
 import baseFindIndex from './baseFindIndex.js';

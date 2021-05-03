@@ -15,6 +15,7 @@ module.exports = {
       'fe-framework/vue1',
       'fe-framework/xstate1',
       'fe-framework/lodash1',
+      'fe-framework/lodash2',
     ],
     前端工程化: [
       'fe-engineering/webpack1',
