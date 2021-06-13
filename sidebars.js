@@ -24,6 +24,7 @@ module.exports = {
       'fe-engineering/webpack4',
       'fe-engineering/webpack5',
       'fe-engineering/babel1',
+      'fe-engineering/jest3',
     ],
     好文翻译: ['translation/web-components-are-easier-than-you-think'],
   },
